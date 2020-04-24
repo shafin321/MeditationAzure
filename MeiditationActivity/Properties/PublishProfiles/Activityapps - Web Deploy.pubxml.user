@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArXRDNAqrz0u3twNO7k9mrAAAAAACAAAAAAAQZgAAAAEAACAAAAB0jhK80/DgQAK3BaEelNLZ7hk5dygkaQAa+ft2aq8czQAAAAAOgAAAAAIAACAAAADkRiIfUIbx8u4RhFFAxg5GDoBqWByCLYND4i0eL9PifIAAAAAytyFMn3ae3X0RIvNwTc0EpUGeOSyJkb7ZyeH5fE0h9nkZlKhneKow47xf4h1/psS1ZkVtmwH2zduoZWy1i2lXZc8AP/DyeA47vos5a0FWc3TzwKJ0vEamEL7ao9Fp4LK8IhpyXwCg6/pC44wq3B5MdEf6++A1kHUHLqH7PNV8qEAAAADQlrCfQI3cCrIQhvO9lx7heIjGHDEDV7bsgPUU4jAM778Prb9TPStOl88S46h9n2Sn413wnJt7fFsLZmKa6bt+</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:meditionazuredb.database.windows.net,1433%3bInitial Catalog=MeditationDb%3bPersist Security Info=False%3bUser ID= admin123%3bPassword=shafin123! %3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

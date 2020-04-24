@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArXRDNAqrz0u3twNO7k9mrAAAAAACAAAAAAAQZgAAAAEAACAAAADrL8gAOfyf9A4+Fdgrvywvg+BiiyjsJND/zIco6zUmQwAAAAAOgAAAAAIAACAAAACWqSU5Jnv+andze2jeDnk8FR+73QdmVTnMh32dlgGYToAAAAAkpR/hko5Q7earZDICIWbE/FubecHVT4nrWWlvErwH71z0Q08OmVmSmZ4EI6rCvWoaQvYMrctkia7o89fttV8FFevjY2gJfizYJF6A943PnPkdu+SU53ONlItbU7E5zBIdLtB34IxAinRlwcCLcXac+f3P27HM8CojMFj4UmTykkAAAADA4k44jaDCxYVeDw2FuropAdxtjJWdBjWQgJWN9oVGk5Ls+Ox3aSdk2kFrqMOugt3Z6iUBX66vVC7zpVI9kGuu</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="MeiditationActivity.Data.ApplicationDbContext">
+      <Value>Server=tcp:meditionazuredb.database.windows.net,1433%3bInitial Catalog=MeditationDb%3bPersist Security Info=False%3bUser ID= admin123%3bPassword=shafin123! %3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
